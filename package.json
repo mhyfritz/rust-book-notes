@@ -1,0 +1,18 @@
+{
+  "name": "rust-book-notes",
+  "version": "1.0.0",
+  "description": "Notes from https://doc.rust-lang.org/book/.",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Markus Hsi-Yang Fritz",
+    "email": "markus.h.y.fritz@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
