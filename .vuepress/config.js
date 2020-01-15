@@ -7,7 +7,13 @@ module.exports = {
       {
         text: "Chapters",
         ariaLabel: "Chapter Menu",
-        items: [{ text: "Getting Started", link: "/getting-started/" }]
+        items: [
+          { text: "Getting Started", link: "/getting-started/" },
+          {
+            text: "Common Programming Concepts",
+            link: "/common-programming-concepts/"
+          }
+        ]
       }
     ],
     sidebar: [
@@ -19,6 +25,11 @@ module.exports = {
           "/getting-started/hello-world/",
           "/getting-started/hello-cargo/"
         ]
+      },
+      {
+        title: "Common Programming Concepts",
+        path: "/common-programming-concepts/",
+        children: ["/common-programming-concepts/variables-and-mutability/"]
       }
     ]
   }
