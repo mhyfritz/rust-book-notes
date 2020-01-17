@@ -29,7 +29,10 @@ module.exports = {
       {
         title: "Common Programming Concepts",
         path: "/common-programming-concepts/",
-        children: ["/common-programming-concepts/variables-and-mutability/"]
+        children: [
+          "/common-programming-concepts/variables-and-mutability/",
+          "/common-programming-concepts/data-types/"
+        ]
       }
     ]
   }
