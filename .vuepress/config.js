@@ -32,7 +32,9 @@ module.exports = {
         children: [
           "/common-programming-concepts/variables-and-mutability/",
           "/common-programming-concepts/data-types/",
-          "/common-programming-concepts/functions/"
+          "/common-programming-concepts/functions/",
+          "/common-programming-concepts/comments/",
+          "/common-programming-concepts/control-flow/"
         ]
       }
     ]
