@@ -36,6 +36,15 @@ module.exports = {
           "/common-programming-concepts/comments/",
           "/common-programming-concepts/control-flow/"
         ]
+      },
+      {
+        title: "Understanding Ownership",
+        path: "/understanding-ownership/",
+        children: [
+          "/understanding-ownership/what-is-ownership/",
+          "/understanding-ownership/references-and-borrowing/",
+          "/understanding-ownership/the-slice-type/"
+        ]
       }
     ]
   }
