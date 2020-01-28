@@ -3,7 +3,7 @@
 set -e
 
 npm run build
-cd docs/.vuepress/dist
+cd dist
 
 if [ -n "${ACTIONS_DEPLOY_KEY}" ]; then
     SSH_DIR="${HOME}/.ssh"
