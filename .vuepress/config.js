@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Rust Book notes",
+  title: "Rust book notes",
   dest: "dist",
   themeConfig: {
     logo: "/assets/img/rust-logo-64x64-blk.png",
