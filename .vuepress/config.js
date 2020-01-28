@@ -12,6 +12,10 @@ module.exports = {
           {
             text: "Common Programming Concepts",
             link: "/common-programming-concepts/"
+          },
+          {
+            text: "Using Structs",
+            link: "/structs/"
           }
         ]
       }
@@ -44,6 +48,15 @@ module.exports = {
           "/understanding-ownership/what-is-ownership/",
           "/understanding-ownership/references-and-borrowing/",
           "/understanding-ownership/the-slice-type/"
+        ]
+      },
+      {
+        title: "Using Structs to Structure Related Data",
+        path: "/structs/",
+        children: [
+          "/structs/defining-structs/",
+          "/structs/example-structs/",
+          "/structs/method-syntax/"
         ]
       }
     ]
