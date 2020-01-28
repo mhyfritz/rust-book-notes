@@ -19,7 +19,8 @@ module.exports = {
             link: "/structs/"
           }
         ]
-      }
+      },
+      { text: "GitHub", link: "https://github.com/mhyfritz/rust-book-notes" }
     ],
     sidebar: [
       {
