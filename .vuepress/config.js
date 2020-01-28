@@ -1,6 +1,7 @@
 module.exports = {
   title: "Rust book notes",
   dest: "dist",
+  base: process.env.BASE_URL || "/",
   themeConfig: {
     logo: "/assets/img/rust-logo-64x64-blk.png",
     nav: [

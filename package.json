@@ -4,7 +4,7 @@
   "description": "Notes from https://doc.rust-lang.org/book/.",
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "cross-env BASE_URL=/rust-book-notes/ vuepress build"
   },
   "keywords": [],
   "author": {
@@ -13,6 +13,7 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "cross-env": "^7.0.0",
     "vuepress": "^1.2.0"
   }
 }
