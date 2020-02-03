@@ -33,7 +33,7 @@ const MAX_POINTS: u32 = 100_000;
 - new variable can be declared with same name as a previous one
 - new variable _shadows_ the previous one
 - useful to apply series of transformations, but have variable end up immutable
-  (using `mut`, variable would stay immutable)
+  (using `mut`, variable would stay mutable)
 - allows reusing name but changing type
 
 ```rust
