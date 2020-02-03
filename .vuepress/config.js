@@ -17,6 +17,10 @@ module.exports = {
           {
             text: "Using Structs",
             link: "/structs/"
+          },
+          {
+            text: "Enums and Pattern Matching",
+            link: "/enums/"
           }
         ]
       },
@@ -59,6 +63,15 @@ module.exports = {
           "/structs/defining-structs/",
           "/structs/example-structs/",
           "/structs/method-syntax/"
+        ]
+      },
+      {
+        title: "Enums and Pattern Matching",
+        path: "/enums/",
+        children: [
+          "/enums/defining-an-enum/",
+          "/enums/match/",
+          "/enums/if-let/"
         ]
       }
     ]
