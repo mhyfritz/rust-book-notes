@@ -1,7 +1,7 @@
 # Data Types
 
 - Rust is _statically typed_, i.e. types of all variables must be known at compile time
-- comiler can often infer type based on value and context
+- compiler can often infer type based on value and context
 
 ## Scalar Types
 
