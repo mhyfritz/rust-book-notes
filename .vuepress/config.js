@@ -21,6 +21,10 @@ module.exports = {
           {
             text: "Enums and Pattern Matching",
             link: "/enums/"
+          },
+          {
+            text: "Packages Crates and Modules",
+            link: "/packages-crates-and-modules/"
           }
         ]
       },
@@ -72,6 +76,14 @@ module.exports = {
           "/enums/defining-an-enum/",
           "/enums/match/",
           "/enums/if-let/"
+        ]
+      },
+      {
+        title: "Managing Growing Projects with Packages, Crates, and Modules",
+        path: "/packages-crates-and-modules/",
+        children: [
+          "/packages-crates-and-modules/packages-and-crates/",
+          "/packages-crates-and-modules/defining-modules/"
         ]
       }
     ]
