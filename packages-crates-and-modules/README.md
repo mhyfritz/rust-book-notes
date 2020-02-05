@@ -11,3 +11,6 @@ Rust's _module system_ consists of:
 
 1. [Packages and Crates](./packages-and-crates/)
 2. [Defining Modules to Control Scope and Privacy](./defining-modules/)
+3. [Paths for Referring to an Item in the Module Tree](./paths/)
+4. [Bringing Paths into Scope with the `use` Keyword](./use/)
+5. [Separating Modules into Different Files](./separating-modules-into-different-files/)

@@ -85,7 +85,8 @@ module.exports = {
           "/packages-crates-and-modules/packages-and-crates/",
           "/packages-crates-and-modules/defining-modules/",
           "/packages-crates-and-modules/paths/",
-          "/packages-crates-and-modules/use/"
+          "/packages-crates-and-modules/use/",
+          "/packages-crates-and-modules/separating-modules-into-different-files/"
         ]
       }
     ]
