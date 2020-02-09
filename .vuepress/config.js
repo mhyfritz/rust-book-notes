@@ -25,6 +25,10 @@ module.exports = {
           {
             text: "Packages Crates and Modules",
             link: "/packages-crates-and-modules/"
+          },
+          {
+            text: "Common Collections",
+            link: "/common-collections/"
           }
         ]
       },
@@ -87,6 +91,15 @@ module.exports = {
           "/packages-crates-and-modules/paths/",
           "/packages-crates-and-modules/use/",
           "/packages-crates-and-modules/separating-modules-into-different-files/"
+        ]
+      },
+      {
+        title: "Common Collections",
+        path: "/common-collections/",
+        children: [
+          "/common-collections/vectors/",
+          "/common-collections/strings/",
+          "/common-collections/hash-maps/"
         ]
       }
     ]
